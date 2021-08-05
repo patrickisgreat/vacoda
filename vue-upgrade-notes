@@ -1,0 +1,509 @@
+vue-upgrade notes
+
+
+----------------------------
+POMS-815: v-for argument order refactor
+----------------------------
+complexity: trivial
+occurrences: 2
+loe: trivial
+time: 1hr
+
+60. Switch argument order in v-for="(index, activity) in firstSixActivity" to (activity, index)
+  Line 10: resources/views/components/dashboard/activity-widget.blade.php
+  Reason: Argument order for v-for has been updated to match JavaScript conventions
+  More info: http://vuejs.org/guide/migration.html#v-for-Argument-Order-for-Arrays
+
+
+65. Switch argument order in v-for="(index, alert) in firstSixAlerts" to (alert, index)
+  Line 10: resources/views/components/dashboard/alerts-widget.blade.php
+  Reason: Argument order for v-for has been updated to match JavaScript conventions
+  More info: http://vuejs.org/guide/migration.html#v-for-Argument-Order-for-Arrays
+
+
+
+----------------------------
+POMS-813: v-el to v-ref refactor
+----------------------------
+complexity: trivial
+occurrences: 3
+loe: trivial
+time: 2hr
+
+9. Update vue.$els.image to vue.$refs.image
+  Line 565: resources/assets/js/components/banners/show.js
+  Reason: v-el and v-ref merged into ref attribute
+  More info: http://vuejs.org/guide/migration.html#v-el-and-v-ref
+
+
+10. Update vue.$els.image to vue.$refs.image
+  Line 662: resources/assets/js/components/banners/show.js
+  Reason: v-el and v-ref merged into ref attribute
+  More info: http://vuejs.org/guide/migration.html#v-el-and-v-ref
+
+
+57. Update v-el:image to ref="image"
+  Line 26: resources/views/components/banners/template.blade.php
+  Reason: v-el and v-ref merged into ref attribute
+  More info: http://vuejs.org/guide/migration.html#v-el-and-v-ref
+
+
+
+----------------------------
+POMS-811: Interpolation within attributes
+----------------------------
+complexity: trivial
+occurrences: 25
+loe: medium
+
+
+4. Update class="preview preview-{{ type }}" to v-bind:class="'preview preview-' + type"
+  Line 22: resources/assets/js/components/banners/preview.js
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+5. Update class="{{type}} preview-container" to v-bind:class="type + ' preview-container'"
+  Line 23: resources/assets/js/components/banners/preview.js
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+36. Update resource-id="{{ $resource_id }}" to v-bind:resource-id="$resource_id"
+  Line 1: resources/views/components/banners/banner-activity.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+37. Update class="banner-activity-feed banner-activity-@{{ index }}-li no-bullet" to v-bind:class="'banner-activity-feed banner-activity-@' + index + '-li no-bullet'"
+  Line 6: resources/views/components/banners/banner-activity.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+38. Update class="banner-activity-@{{index}}" to v-bind:class="'banner-activity-@' + index"
+  Line 7: resources/views/components/banners/banner-activity.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+39. Update data-share-link="@echo(Request::url())/banner-activity-@{{index}}" to v-bind:data-share-link="'@echo(Request::url())/banner-activity-@' + index"
+  Line 9: resources/views/components/banners/banner-activity.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+41. Update for="program-@{{ program.id }}" to v-bind:for="'program-@' + program.id"
+  Line 11: resources/views/components/banners/categories.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+42. Update for="category-@{{ category.id }}" to v-bind:for="'category-@' + category.id"
+  Line 17: resources/views/components/banners/categories.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+43. Update value="@{{ category.id }}" to v-bind:value="'@' + category.id"
+  Line 19: resources/views/components/banners/categories.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+44. Update class="fa @{{ isSelected(category.id) ? 'fa-minus' : 'fa-plus' }}" to v-bind:class="'fa @' + isSelected(category.id) ? 'fa-minus' : 'fa-plus'"
+  Line 20: resources/views/components/banners/categories.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+45. Update for="category-@{{ category.id }}" to v-bind:for="'category-@' + category.id"
+  Line 38: resources/views/components/banners/categories.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+46. Update value="@{{ category.id }}" to v-bind:value="'@' + category.id"
+  Line 40: resources/views/components/banners/categories.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+47. Update class="fa @{{ isSelected(category.id) ? 'fa-minus' : 'fa-plus' }}" to v-bind:class="'fa @' + isSelected(category.id) ? 'fa-minus' : 'fa-plus'"
+  Line 41: resources/views/components/banners/categories.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+54. Update href="/banner/{{ $banner->id }}" to v-bind:href="'/banner/' + $banner->id"
+  Line 16: resources/views/components/banners/scheduled-list.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+58. Update resource-id="{{ $resource_id }}" to v-bind:resource-id="$resource_id"
+  Line 10: resources/views/components/banners/show.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+59. Update href="{{ route('activity-list') }}" to v-bind:href="route('activity-list')"
+  Line 5: resources/views/components/dashboard/activity-widget.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+61. Update href="@{{ resourceRoute(activity.auditable_type, activity.auditable_id) }}" to v-bind:href="'@' + resourceRoute(activity.auditable_type, activity.auditable_id)"
+  Line 12: resources/views/components/dashboard/activity-widget.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+62. Replace filtered value in v-for="pendingResource in pendingResources | orderBy 'updated_at' needsReviewSort | limitBy 10" with a method or computed property
+  Line 25: resources/views/components/dashboard/needs-review-widget.blade.php
+  Reason: Filters can now only be used inside text interpolations, e.g. {{ date | formatDate('YY-MM-DD') }}
+  More info: http://vuejs.org/guide/migration.html#Filters-Outside-Text-Interpolations
+
+
+63. Update href="/banner/@{{ pendingResource.id }}" to v-bind:href="'/banner/@' + pendingResource.id"
+  Line 26: resources/views/components/dashboard/needs-review-widget.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+64. Update href="{{ route('alerts-list') }}" to v-bind:href="route('alerts-list')"
+  Line 5: resources/views/components/dashboard/alerts-widget.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+66. Update resource-id="{{ $resource_id }}" to v-bind:resource-id="$resource_id"
+  Line 5: resources/views/components/option-types/show.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+67. Update resource-id="{{ $resource_id }}" to v-bind:resource-id="$resource_id"
+  Line 5: resources/views/components/offers/show.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+70. Update resource-id="{{ $resource_id }}" to v-bind:resource-id="$resource_id"
+  Line 5: resources/views/components/options/show.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+72. Update resource-id="{{ $resource_id }}" to v-bind:resource-id="$resource_id"
+  Line 5: resources/views/components/templates/show.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+73. Update resource-id="{{ $resource_id }}" to v-bind:resource-id="$resource_id"
+  Line 5: resources/views/components/themes/show.blade.php
+  Reason: Interpolation within attributes has been removed
+  More info: http://vuejs.org/guide/migration.html#Interpolation-within-Attributes
+
+
+
+----------------------------
+POMS-812: LifeCycle Hooks - update names
+----------------------------
+complexity: trivial-medium
+occurrences: 19
+loe: medium
+
+1. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 61: resources/assets/js/components/api-resource-select.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+2. Replace attached with a custom in-DOM check in another hook
+  Line 12: resources/assets/js/components/banners/banner-activities.js
+  Reason: attached lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#attached
+
+
+3. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 66: resources/assets/js/components/banners/categories.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+7. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 67: resources/assets/js/components/banners/preview.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+8. Replace init with beforeCreate
+  Line 9: resources/assets/js/components/banners/show.js
+  Reason: init lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#init
+
+
+11. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 1029: resources/assets/js/components/banners/show.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+13. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 43: resources/assets/js/components/dashboard/alerts-widget.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+14. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 9: resources/assets/js/components/dashboard/calendar-widget.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+15. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 49: resources/assets/js/components/dashboard/needs-review-widget.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+16. Replace init with beforeCreate
+  Line 13: resources/assets/js/components/home.js
+  Reason: init lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#init
+
+
+17. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 21: resources/assets/js/components/home.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+18. Replace init with beforeCreate
+  Line 156: resources/assets/js/components/dropzone.js
+  Reason: init lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#init
+
+
+19. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 25: resources/assets/js/components/offers/show.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+20. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 18: resources/assets/js/components/teams/assign-roles-members.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+21. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 35: resources/assets/js/components/teams/list-edit-import-categories.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+26. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 29: resources/assets/js/components/teams/team-categories.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+27. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 42: resources/assets/js/components/teams/list-edit-roles.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+32. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 37: resources/assets/js/components/teams/team-roles.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+33. Replace ready with mounted, then use Vue.nextTick if you need an in-document guarantee
+  Line 21: resources/assets/js/components/teams/update-team-details.js
+  Reason: ready lifecycle hook has been removed
+  More info: http://vuejs.org/guide/migration.html#ready
+
+
+
+----------------------------
+POMS-814: Replace dispatch events
+----------------------------
+complexity: high
+occurrences: 12, but almost all in comments or unused areas
+loe: low
+
+[NA] 6. Replace this.$dispatch('template-ready', 'ready') to use a global event bus or vuex (see link below for implementation details)
+  Line 63: resources/assets/js/components/banners/preview.js
+  Reason: $dispatch and $broadcast have been removed because the pattern doesn't scale well
+  More info: http://vuejs.org/guide/migration.html#dispatch-and-broadcast
+
+
+[?pb] 12. Replace this.$dispatch('updateUser') to use a global event bus or vuex (see link below for implementation details)
+  Line 52: resources/assets/js/components/dashboard/activity-widget.js
+  Reason: $dispatch and $broadcast have been removed because the pattern doesn't scale well
+  More info: http://vuejs.org/guide/migration.html#dispatch-and-broadcast
+
+
+[NA] 22. Replace this.$dispatch('updateCatsHere') to use a global event bus or vuex (see link below for implementation details)
+  Line 113: resources/assets/js/components/teams/list-edit-import-categories.js
+  Reason: $dispatch and $broadcast have been removed because the pattern doesn't scale well
+  More info: http://vuejs.org/guide/migration.html#dispatch-and-broadcast
+
+
+[NA] 23. Replace this.$dispatch('broadcastCatUpdate') to use a global event bus or vuex (see link below for implementation details)
+  Line 114: resources/assets/js/components/teams/list-edit-import-categories.js
+  Reason: $dispatch and $broadcast have been removed because the pattern doesn't scale well
+  More info: http://vuejs.org/guide/migration.html#dispatch-and-broadcast
+
+
+[NA] 24. Replace this.$dispatch('updateCategoriesHere') to use a global event bus or vuex (see link below for implementation details)
+  Line 123: resources/assets/js/components/teams/list-edit-import-categories.js
+  Reason: $dispatch and $broadcast have been removed because the pattern doesn't scale well
+  More info: http://vuejs.org/guide/migration.html#dispatch-and-broadcast
+
+
+[NA] 25. Replace this.$dispatch('broadcastCatUpate') to use a global event bus or vuex (see link below for implementation details)
+  Line 124: resources/assets/js/components/teams/list-edit-import-categories.js
+  Reason: $dispatch and $broadcast have been removed because the pattern doesn't scale well
+  More info: http://vuejs.org/guide/migration.html#dispatch-and-broadcast
+
+
+[NA?] 28. Replace this.$dispatch('updateRolesHere') to use a global event bus or vuex (see link below for implementation details)
+  Line 121: resources/assets/js/components/teams/list-edit-roles.js
+  Reason: $dispatch and $broadcast have been removed because the pattern doesn't scale well
+  More info: http://vuejs.org/guide/migration.html#dispatch-and-broadcast
+
+
+[NA?] 29. Replace this.$dispatch('broadCastRolesUpdate') to use a global event bus or vuex (see link below for implementation details)
+  Line 123: resources/assets/js/components/teams/list-edit-roles.js
+  Reason: $dispatch and $broadcast have been removed because the pattern doesn't scale well
+  More info: http://vuejs.org/guide/migration.html#dispatch-and-broadcast
+
+
+[NA?] 30. Replace this.$dispatch('updateRolesHere') to use a global event bus or vuex (see link below for implementation details)
+  Line 169: resources/assets/js/components/teams/list-edit-roles.js
+  Reason: $dispatch and $broadcast have been removed because the pattern doesn't scale well
+  More info: http://vuejs.org/guide/migration.html#dispatch-and-broadcast
+
+
+[NA?] 31. Replace this.$dispatch('broadCastRolesUpdate') to use a global event bus or vuex (see link below for implementation details)
+  Line 170: resources/assets/js/components/teams/list-edit-roles.js
+  Reason: $dispatch and $broadcast have been removed because the pattern doesn't scale well
+  More info: http://vuejs.org/guide/migration.html#dispatch-and-broadcast
+
+
+[NA?] 34. Replace this.$dispatch('updateTeam') to use a global event bus or vuex (see link below for implementation details)
+  Line 35: resources/assets/js/components/teams/update-team-details.js
+  Reason: $dispatch and $broadcast have been removed because the pattern doesn't scale well
+  More info: http://vuejs.org/guide/migration.html#dispatch-and-broadcast
+
+
+[NA?] 35. Replace this.$dispatch('updateTeams') to use a global event bus or vuex (see link below for implementation details)
+  Line 36: resources/assets/js/components/teams/update-team-details.js
+  Reason: $dispatch and $broadcast have been removed because the pattern doesn't scale well
+  More info: http://vuejs.org/guide/migration.html#dispatch-and-broadcast
+
+
+
+----------------------------
+POMS-810: Select box component 2 way binding refactor
+----------------------------
+complexity: high
+occurrences: 12
+loe: high
+
+40. Replace :selected.sync="form.categories" with :selected="form.categories", then $emit an event from the child component to trigger an update to form.categories in the parent
+  Line 3: resources/views/components/banners/categories.blade.php
+  Reason: v-bind.sync and v-bind.once have removed to enforce one-way down props, leaving side effects to more explicit component events
+  More info: http://vuejs.org/guide/migration.html#v-bind-with-once-and-sync-Modifiers
+
+
+48. Replace :selected.sync="form.offer_id" with :selected="form.offer_id", then $emit an event from the child component to trigger an update to form.offer_id in the parent
+  Line 7: resources/views/components/banners/details.blade.php
+  Reason: v-bind.sync and v-bind.once have removed to enforce one-way down props, leaving side effects to more explicit component events
+  More info: http://vuejs.org/guide/migration.html#v-bind-with-once-and-sync-Modifiers
+
+
+49. Replace :selected-data.sync="offerNameString" with :selected-data="offerNameString", then $emit an event from the child component to trigger an update to offerNameString in the parent
+  Line 8: resources/views/components/banners/details.blade.php
+  Reason: v-bind.sync and v-bind.once have removed to enforce one-way down props, leaving side effects to more explicit component events
+  More info: http://vuejs.org/guide/migration.html#v-bind-with-once-and-sync-Modifiers
+
+
+50. Replace :fields.sync="form" with :fields="form", then $emit an event from the child component to trigger an update to form in the parent
+  Line 6: resources/views/components/banners/preview.blade.php
+  Reason: v-bind.sync and v-bind.once have removed to enforce one-way down props, leaving side effects to more explicit component events
+  More info: http://vuejs.org/guide/migration.html#v-bind-with-once-and-sync-Modifiers
+
+
+51. Replace :fields.sync="form" with :fields="form", then $emit an event from the child component to trigger an update to form in the parent
+  Line 19: resources/views/components/banners/preview.blade.php
+  Reason: v-bind.sync and v-bind.once have removed to enforce one-way down props, leaving side effects to more explicit component events
+  More info: http://vuejs.org/guide/migration.html#v-bind-with-once-and-sync-Modifiers
+
+
+52. Replace :fields.sync="form" with :fields="form", then $emit an event from the child component to trigger an update to form in the parent
+  Line 12: resources/views/components/banners/preview-modal.blade.php
+  Reason: v-bind.sync and v-bind.once have removed to enforce one-way down props, leaving side effects to more explicit component events
+  More info: http://vuejs.org/guide/migration.html#v-bind-with-once-and-sync-Modifiers
+
+
+53. Replace :fields.sync="form" with :fields="form", then $emit an event from the child component to trigger an update to form in the parent
+  Line 33: resources/views/components/banners/preview-modal.blade.php
+  Reason: v-bind.sync and v-bind.once have removed to enforce one-way down props, leaving side effects to more explicit component events
+  More info: http://vuejs.org/guide/migration.html#v-bind-with-once-and-sync-Modifiers
+
+
+55. Replace :selected.sync="form.theme_id" with :selected="form.theme_id", then $emit an event from the child component to trigger an update to form.theme_id in the parent
+  Line 7: resources/views/components/banners/theme.blade.php
+  Reason: v-bind.sync and v-bind.once have removed to enforce one-way down props, leaving side effects to more explicit component events
+  More info: http://vuejs.org/guide/migration.html#v-bind-with-once-and-sync-Modifiers
+
+
+56. Replace :selected.sync="form.template_id" with :selected="form.template_id", then $emit an event from the child component to trigger an update to form.template_id in the parent
+  Line 7: resources/views/components/banners/template.blade.php
+  Reason: v-bind.sync and v-bind.once have removed to enforce one-way down props, leaving side effects to more explicit component events
+  More info: http://vuejs.org/guide/migration.html#v-bind-with-once-and-sync-Modifiers
+
+
+68. Replace :selected.sync="form.department_id" with :selected="form.department_id", then $emit an event from the child component to trigger an update to form.department_id in the parent
+  Line 39: resources/views/components/offers/show.blade.php
+  Reason: v-bind.sync and v-bind.once have removed to enforce one-way down props, leaving side effects to more explicit component events
+  More info: http://vuejs.org/guide/migration.html#v-bind-with-once-and-sync-Modifiers
+
+
+69. Replace :selected.sync="form.owner_id" with :selected="form.owner_id", then $emit an event from the child component to trigger an update to form.owner_id in the parent
+  Line 78: resources/views/components/offers/show.blade.php
+  Reason: v-bind.sync and v-bind.once have removed to enforce one-way down props, leaving side effects to more explicit component events
+  More info: http://vuejs.org/guide/migration.html#v-bind-with-once-and-sync-Modifiers
+
+
+71. Replace :selected.sync="form.option_type_id" with :selected="form.option_type_id", then $emit an event from the child component to trigger an update to form.option_type_id in the parent
+  Line 13: resources/views/components/options/show.blade.php
+  Reason: v-bind.sync and v-bind.once have removed to enforce one-way down props, leaving side effects to more explicit component events
+  More info: http://vuejs.org/guide/migration.html#v-bind-with-once-and-sync-Modifiers
+
+
+
+----------------------------
+POMS-816: rethink the use of partials in banner-preview component
+----------------------------
+complexity: high
+occurrences: 1
+loe: high
+
+Banner preview template compile on template select
+
+
+
+----------------------------
+TESTING
+----------------------------
+complexity: high
+occurrences: all of vacoda
+loe: high

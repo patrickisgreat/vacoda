@@ -1,0 +1,53 @@
+<!--5050 banner-->
+<table class="banner-html banner-container" border="0" cellspacing="0" cellpadding="0" width="600" style="background-color:{{ theme.background_color }};">
+    <tr>
+        <td colspan="3" align="left" valign="top" width="100%" height="20" style="border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule:exactly;line-height:20px;"><!--[if gte mso 15]>&nbsp;<![endif]--></td>
+    </tr>
+    <tr>
+        <td align="left" valign="top" width="10"></td>
+        <td align="left" valign="top" width="580" class="W300">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                    <td align="left" valign="top" width="100%">
+                        <!--Left Half-->
+                        <table align="left" class="W300" border="0" cellspacing="0" cellpadding="0" width="290">
+                            <!--Headline-->
+                            <tr>
+                                <td align="left" valign="top" width="100%" style="font-family:Helvetica, Arial, sans-serif;color:{{ theme.font_color }};font-size:{{ fields.headline_font_size }}px;mso-line-height-rule:exactly;line-height:{{ fields.headline_font_size }}px;font-weight:bold;padding-bottom:10px;">{{ fields.headline }}</td>
+                            </tr>
+                        </table>
+                        <!--[if gte mso 9]>
+                        </td>
+                        <td valign="top">
+                        <![endif]-->
+                        <!--Spacer-->
+                        <table align="left" class="hide" border="0" cellspacing="0" cellpadding="0" width="10">
+                            <tr>
+                                <td align="left" valign="top" width="10" height="10" style="border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 10px;"><!--[if gte mso 15]>&nbsp;<![endif]--></td>
+                            </tr>
+                        </table>
+                        <!--[if gte mso 9]>
+                        </td>
+                        <td valign="top">
+                        <![endif]-->
+                        <!--Right Half-->
+                        <table align="left" class="W300" border="0" cellspacing="0" cellpadding="0" width="280">
+                            <!--Body-->
+                            <tr>
+                                <td align="left" valign="top" width="100%" style="font-family:Helvetica, Arial, sans-serif;color:{{ theme.font_color_secondary }};font-size:{{ fields.body_font_size }}px;mso-line-height-rule:exactly;line-height:{{ fields.body_font_size }}px;font-weight:normal;padding-bottom:10px;">
+                                    <span>{{ fields.body }}</span>
+                                    <span class="valid-date">{{ fields.valid_thru }}</span>
+                                </td>
+                            </tr>
+                            <!--CTA-->
+                            <tr>
+                                <td class="textLalign" align="left" valign="top" width="100%" style="font-family:Helvetica, Arial, sans-serif;color:{{ theme.cta_font_color }};font-size:13px;font-weight:bold;padding-bottom:10px;padding-top:10px;text-align:right;">{{ fields.cta }}</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td align="left" valign="top" width="10"></td>
+    </tr>
+</table>

@@ -1,0 +1,570 @@
+/*Grid*/
+@container-large-desktop: (1180px + @grid-gutter-width);
+
+/*Colors*/
+
+
+@blue-primary: #6FC4E8;
+@red-notification: #C01313;
+@blue-default-btn: #93D3EE;
+@blue-panel: #DBF0F9;
+//Orange
+@orange: #F47A20;
+
+//Border-color
+@gray-border: #D8D8D8;
+
+
+/*Font*/
+@font-family-sans-serif-override: "Titillium Web", Helvetica, sans-serif;
+@font-size-base-override: 16px;
+@font-family-serif-override: 'Lora', Georgia, serif;
+@text-color-override: #333333;
+@line-height-base-override: 1.5;
+
+@font-family-base: @font-family-sans-serif-override;
+@font-size-base: @font-size-base-override;
+@headings-font-weight-override: 700;
+
+body {
+  font-family: @font-family-base;
+  font-size: @font-size-base;
+  line-height: @line-height-base-override;
+  color: @text-color-override;
+  background-color: #FFFFFF;
+
+  a {
+    color: @orange;
+    text-decoration: underline;
+  }
+  a:focus, a:hover {
+    color: #BD570B;
+    text-decoration: underline;
+    //font-weight: bold;
+  }
+}
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: @headings-font-weight-override;
+  font-family: @font-family-serif-override;
+}
+
+small, .small {
+  font-size: 12px !important;
+  line-height: 18px;
+}
+
+h1, .h1 {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+h2, .h2 {
+  font-size: 29px;
+  line-height: 42px;
+}
+
+h3, .h3 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.base-panel-heading {
+  overflow: auto;
+  .page-title {
+    display: inline-block;
+  }
+}
+
+.page-title {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: @font-family-serif-override;
+  font-weight: 700;
+}
+
+.legal-text {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+// CTA & Link Styles
+// ------------------------
+
+.btn {
+  text-transform: none;
+  text-decoration: none;
+  border: 1px transparent;
+}
+
+.btn-primary {
+  background-color: @orange;
+  padding: 13px 19px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #D86E1F;
+    border-color: #D86E1F;
+  }
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #D86E1F;
+}
+
+.btn-primary:active:focus {
+  color: #fff;
+  background-color: #D86E1F;
+}
+
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus{
+  color: #fff;
+  background-color: #D86E1F;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+  background-color: #6FC4E8;
+  color: #FFF;
+}
+.btn-primary.btn-lg {
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 12px 18px;
+}
+
+.btn-default {
+  background-color: @blue-default-btn;
+  padding: 13px 19px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #FFFFFF;
+
+  &:hover {
+    background-color: @blue-default-btn;
+    color: #FFFFFF;
+  }
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: @blue-default-btn;
+}
+
+.btn-default:active:focus {
+  color: #fff;
+  background-color: @blue-default-btn;
+  border-color: @blue-default-btn;
+
+}
+
+.btn-default:active:focus {
+  color: #fff;
+  background-color: @blue-default-btn;
+}
+
+.btn-link {
+  color: @orange;
+  text-decoration: underline;
+
+  &:focus, &:hover {
+    color: #BD570B;
+    text-decoration: underline;
+  }
+}
+
+.open > .dropdown-toggle.btn-default:focus {
+  color: #fff;
+  background-color: @blue-default-btn;
+  border-color: @blue-default-btn;
+}
+
+.dropdown-toggle.btn {
+  color: #fff;
+}
+
+.dropdown-toggle.btn-default:hover, .dropdown-toggle.btn-default:focus, .dropdown-toggle.btn-default:active, .dropdown-toggle.btn-default.active, .open > .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: @blue-default-btn;
+  border-color: @blue-default-btn;
+}
+
+.tabular-dropdown {
+  .dropdown-toggle {
+    font-size: 12px;
+    padding: 2px 7px;
+  }
+}
+
+
+.btn-secondary {
+  background-color: #F9F9F9;
+  padding: 13px 19px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #333;
+
+  &:hover {
+    background-color: #F9F9F9;
+    color: #333;
+  }
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active{
+  background-color: #eF9F9F9;
+  color: #333;
+}
+
+.btn-secondary:active:focus {
+  background-color: #F9F9F9;
+  color: #333;
+  border-color: #333;
+
+}
+
+
+
+.panel-heading > .dropdown .dropdown-toggle {
+  color: #fff;
+}
+
+// Form styles
+// -------------------------
+
+.form-control {
+  line-height: 1.4;
+  border: 1px solid @gray-border;
+  padding: 0.5rem 0.9rem;
+}
+
+@form-width: 350px;
+
+#banner-show, #offer-show {
+  .form-control {
+    width: @form-width;
+    display: inline-block;
+  }
+  .datetimepicker {
+    .form-control {
+      width: 302px;
+    }
+  }
+  .input-group.date {
+    width: 302px;
+    .form-control {
+      width: 302px;
+    }
+  }
+  .select2 {
+    width: @form-width !important;
+  }
+  textarea.form-control, input[name="url"].form-control {
+    width: @form-width;
+  }
+  .font-size-range-input input[type="text"].form-control {
+    width: 75px;
+  }
+
+}
+
+.required-field {
+  color: @red-notification;
+}
+
+.btn-select {
+  border: 1px solid @gray-border;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #444 !important;
+}
+
+//Tooltips
+.custom-tooltip{
+  display: inline-block;
+  vertical-align: top;
+  .icon-icon_tool_tip {
+    background-color: #CCCBCB;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    margin-left: 8px;
+    font-size: 13px;
+    padding-bottom: 17px;
+    color: #333;
+  }
+  .icon-icon_tool_tip:before {
+    margin-left: .1em;
+  }
+  .tooltip > .tooltip-inner {
+    background-color: #EFFBF2;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    border: 1px solid @gray-border;
+    &:after, &:before {
+      right: 100%;
+      top: 33%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
+
+    &:after {
+      border-color: rgba(239, 251, 242, 0);
+      border-right-color: #EFFBF2;
+      border-width: 5px;
+      margin-top: -5px;
+    }
+    &:before {
+      border-color: rgba(216, 216, 216, 0);
+      border-right-color: @gray-border;
+      border-width: 6px;
+      margin-top: -6px;
+    }
+  }
+  .tooltip > .tooltip-arrow {
+    border-right-color: #EFFBF2;
+    padding-right: 2px;
+  }
+
+}
+
+//Tooltips attached to buttons
+
+.btn-tooltip{
+  display: inline-block;
+  vertical-align: top;
+  .tooltip > .tooltip-inner {
+    background-color: #EFFBF2;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    border: 1px solid @gray-border;
+    &:after, &:before {
+      left: 50%;
+      top: 100%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
+
+    &:after {
+      border-color: rgba(239, 251, 242, 0);
+      border-top-color: #EFFBF2;
+      border-width: 5px;
+      margin-left: -5px;
+    }
+    &:before {
+      border-color: rgba(216, 216, 216, 0);
+      border-top-color: @gray-border;
+      border-width: 6px;
+      margin-left: -6px;
+    }
+  }
+  .tooltip > .tooltip-arrow {
+    border-top-color: #EFFBF2;
+    padding-right: 2px;
+  }
+}
+
+.checkbox-custom, .radio-custom {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+  position: relative;
+
+}
+
+//Checkboxes / Radios
+.checkbox-custom + .checkbox-custom-label:before {
+  content: '';
+  background: #fff;
+  border: 1px solid @blue-primary;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+  content: "\f00c";
+  font-family: 'FontAwesome';
+  background: @blue-primary;
+  color: #fff;
+  font-size: 13px;
+}
+
+.radio-custom + .radio-custom-label:before {
+  content: '';
+  background: #fff;
+  border: 2px solid @blue-primary;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.radio-custom + .radio-custom-label:before {
+  border-radius: 50%;
+}
+
+.radio-custom:checked + .radio-custom-label:before {
+  background: @blue-primary;
+  box-shadow: inset 0px 0px 0px 4px #fff;
+}
+
+.checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
+  outline: 1px solid transparent; /* focus style */
+}
+
+//Progress Bar
+.progress {
+  background-color: #FFF;
+  border: 2px solid @blue-primary;
+  height: 15px;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+//Custom Datepicker Styles
+.datepicker table tr td.disabled, .datepicker table tr td.disabled:hover {
+  background: none;
+  color: #b3b3b3;
+  cursor: default;
+}
+
+.datetimepicker {
+  .form-control {
+    border-right: none;
+  }
+  .input-group-addon {
+    background-color: transparent;
+  }
+}
+
+.bootstrap-datetimepicker-widget table td.today:before {
+  content: '';
+  display: inline-block;
+  border: solid transparent;
+  border-width: 0 0 7px 7px;
+  border-bottom-color: @blue-primary !important;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover {
+  background-color: @blue-primary !important;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.bootstrap-datetimepicker-widget table td span.active {
+  background-color: @blue-primary !important;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.bootstrap-datetimepicker-widget table thead tr:first-child th:hover {
+  background: @blue-panel !important;
+}
+
+.bootstrap-datetimepicker-widget table td.day:hover,
+.bootstrap-datetimepicker-widget table td.hour:hover,
+.bootstrap-datetimepicker-widget table td.minute:hover,
+.bootstrap-datetimepicker-widget table td.second:hover {
+  background: @blue-panel !important;
+}
+
+.bootstrap-datetimepicker-widget table td span:hover {
+  background: @blue-panel !important;
+}
+
+// SweetAlerts
+
+.sweet-alert{
+  padding: 35px 50px;
+  font-family: @font-family-sans-serif-override;
+  .sa-icon{
+    display: none !important;
+  }
+  h2{
+    margin-top: 0;
+    color: #333;
+    padding: 0 0 5px 0;
+  }
+
+    button{
+      font-size: 18px;
+      font-weight: bold;
+      padding: 13px 19px;
+      border-radius: 4px;
+    }
+     button.confirm{
+      background-color: @orange !important;
+    }
+    button.cancel{
+      background-color: @blue-primary !important;
+    }
+
+}
+
+.sweet-error{
+  h2{
+    color: #C01313;
+  }
+}
+
+
+// Panels
+.panel{
+  border-radius: 0;
+  box-shadow: 0;
+
+}
+.panel-default > .panel-heading{
+  background-color: @blue-panel;
+  border-color: @gray-border;
+}
+
+.panel-default{
+  border-color: @gray-border;
+  .panel-list {
+    padding: 0;
+  }
+}
+

@@ -1,0 +1,1346 @@
+[
+  {
+    "id": 1,
+    "team_id": 1,
+    "name": "Shopper Browser",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": [
+      {
+        "id": 1,
+        "program_id": 1,
+        "cell_label": "BR_ACAIRQUALITY",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 2,
+        "program_id": 1,
+        "cell_label": "BR_ACANDFANS",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 3,
+        "program_id": 1,
+        "cell_label": "BR_AIRCOMPRESSOR",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 4,
+        "program_id": 1,
+        "cell_label": "BR_BATHACCESS",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 39,
+        "program_id": 1,
+        "cell_label": "BR_ACAIRQUALITY",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 40,
+        "program_id": 1,
+        "cell_label": "BR_ACANDFANS",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 41,
+        "program_id": 1,
+        "cell_label": "BR_AIRCOMPRESSOR",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 42,
+        "program_id": 1,
+        "cell_label": "BR_BATHACCESS",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "team_id": 1,
+    "name": "Promo",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": [
+      {
+        "id": 5,
+        "program_id": 2,
+        "cell_label": "BR_BATHFAUCETS",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 6,
+        "program_id": 2,
+        "cell_label": "BR_BATHFIXTURES",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 7,
+        "program_id": 2,
+        "cell_label": "BR_BATHVANITIES",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 8,
+        "program_id": 2,
+        "cell_label": "BR_BUILDHARDWARE",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 9,
+        "program_id": 2,
+        "cell_label": "BR_CARPET",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 43,
+        "program_id": 2,
+        "cell_label": "BR_BATHFAUCETS",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 44,
+        "program_id": 2,
+        "cell_label": "BR_BATHFIXTURES",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 45,
+        "program_id": 2,
+        "cell_label": "BR_BATHVANITIES",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 46,
+        "program_id": 2,
+        "cell_label": "BR_BUILDHARDWARE",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 47,
+        "program_id": 2,
+        "cell_label": "BR_CARPET",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "team_id": 1,
+    "name": "Abandon Cart",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": [
+      {
+        "id": 10,
+        "program_id": 3,
+        "cell_label": "ABDN2",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 11,
+        "program_id": 3,
+        "cell_label": "AC_DYN",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 12,
+        "program_id": 3,
+        "cell_label": "APP_DYN",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 13,
+        "program_id": 3,
+        "cell_label": "BATH_DYN",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 14,
+        "program_id": 3,
+        "cell_label": "BATHFAUCETS_DYN",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 48,
+        "program_id": 3,
+        "cell_label": "ABDN2",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 49,
+        "program_id": 3,
+        "cell_label": "AC_DYN",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 50,
+        "program_id": 3,
+        "cell_label": "APP_DYN",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 51,
+        "program_id": 3,
+        "cell_label": "BATH_DYN",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 52,
+        "program_id": 3,
+        "cell_label": "BATHFAUCETS_DYN",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "team_id": 1,
+    "name": "Browser Retargeting",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": [
+      {
+        "id": 15,
+        "program_id": 4,
+        "cell_label": "AC_DYN",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 16,
+        "program_id": 4,
+        "cell_label": "APP_DYN",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 17,
+        "program_id": 4,
+        "cell_label": "BATH_DYN",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 18,
+        "program_id": 4,
+        "cell_label": "BATHFAUCETS_DYN",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 19,
+        "program_id": 4,
+        "cell_label": "Carpet_DYN",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 53,
+        "program_id": 4,
+        "cell_label": "AC_DYN",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 54,
+        "program_id": 4,
+        "cell_label": "APP_DYN",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 55,
+        "program_id": 4,
+        "cell_label": "BATH_DYN",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 56,
+        "program_id": 4,
+        "cell_label": "BATHFAUCETS_DYN",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 57,
+        "program_id": 4,
+        "cell_label": "Carpet_DYN",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "team_id": 1,
+    "name": "Transactional",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": [
+      {
+        "id": 20,
+        "program_id": 5,
+        "cell_label": "TR_ABRASIVES",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 21,
+        "program_id": 5,
+        "cell_label": "BR_AIRCOMPRESSOR",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 22,
+        "program_id": 5,
+        "cell_label": "BR_PNEUMATIC",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 23,
+        "program_id": 5,
+        "cell_label": "BR_ACANDFANS",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 24,
+        "program_id": 5,
+        "cell_label": "BR_ACAIRQUALITY",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 58,
+        "program_id": 5,
+        "cell_label": "TR_ABRASIVES",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 59,
+        "program_id": 5,
+        "cell_label": "BR_AIRCOMPRESSOR",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 60,
+        "program_id": 5,
+        "cell_label": "BR_PNEUMATIC",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 61,
+        "program_id": 5,
+        "cell_label": "BR_ACANDFANS",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 62,
+        "program_id": 5,
+        "cell_label": "BR_ACAIRQUALITY",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "team_id": 1,
+    "name": "Garden Club",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": [
+      {
+        "id": 25,
+        "program_id": 6,
+        "cell_label": "GC_CHAINSAWS",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 26,
+        "program_id": 6,
+        "cell_label": "GC_CHEMICALS",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 27,
+        "program_id": 6,
+        "cell_label": "GC_DECOR_WALL",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 28,
+        "program_id": 6,
+        "cell_label": "",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 29,
+        "program_id": 6,
+        "cell_label": "GC_DECOR_WINDOW",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 63,
+        "program_id": 6,
+        "cell_label": "GC_CHAINSAWS",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 64,
+        "program_id": 6,
+        "cell_label": "GC_CHEMICALS",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 65,
+        "program_id": 6,
+        "cell_label": "GC_DECOR_WALL",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 66,
+        "program_id": 6,
+        "cell_label": "",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 67,
+        "program_id": 6,
+        "cell_label": "GC_DECOR_WINDOW",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "team_id": 1,
+    "name": "Installation Services",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": [
+      {
+        "id": 30,
+        "program_id": 7,
+        "cell_label": "IS_WINDOWS",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 31,
+        "program_id": 7,
+        "cell_label": "IS_HARD_WINDOW",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 32,
+        "program_id": 7,
+        "cell_label": "IS_WATERHTR",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 33,
+        "program_id": 7,
+        "cell_label": "IS_INTERIOR_SHUTTERS",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 34,
+        "program_id": 7,
+        "cell_label": "IS_HARDWOOD_FLOORING",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 68,
+        "program_id": 7,
+        "cell_label": "IS_WINDOWS",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 69,
+        "program_id": 7,
+        "cell_label": "IS_HARD_WINDOW",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 70,
+        "program_id": 7,
+        "cell_label": "IS_WATERHTR",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 71,
+        "program_id": 7,
+        "cell_label": "IS_INTERIOR_SHUTTERS",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 72,
+        "program_id": 7,
+        "cell_label": "IS_HARDWOOD_FLOORING",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "team_id": 1,
+    "name": "Pro",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": [
+      {
+        "id": 35,
+        "program_id": 8,
+        "cell_label": "BR_AIRCOMPRESSOR",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 36,
+        "program_id": 8,
+        "cell_label": "BR_ELECTRICDEVICES",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 37,
+        "program_id": 8,
+        "cell_label": "BR_ELECTRICSAFETY",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 38,
+        "program_id": 8,
+        "cell_label": "BR_ELECTRICSAFETY",
+        "description": "",
+        "team_id": 1,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 73,
+        "program_id": 8,
+        "cell_label": "BR_AIRCOMPRESSOR",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 74,
+        "program_id": 8,
+        "cell_label": "BR_ELECTRICDEVICES",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 75,
+        "program_id": 8,
+        "cell_label": "BR_ELECTRICSAFETY",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      },
+      {
+        "id": 76,
+        "program_id": 8,
+        "cell_label": "BR_ELECTRICSAFETY",
+        "description": "",
+        "team_id": 3,
+        "name": "",
+        "created_at": "2017-04-19 17:35:06",
+        "updated_at": "2017-04-19 17:35:06"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "team_id": 3,
+    "name": "Shopper Browser",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": []
+  },
+  {
+    "id": 10,
+    "team_id": 3,
+    "name": "Promo",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": []
+  },
+  {
+    "id": 11,
+    "team_id": 3,
+    "name": "Abandon Cart",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": []
+  },
+  {
+    "id": 12,
+    "team_id": 3,
+    "name": "Browser Retargeting",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": []
+  },
+  {
+    "id": 13,
+    "team_id": 3,
+    "name": "Transactional",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": []
+  },
+  {
+    "id": 14,
+    "team_id": 3,
+    "name": "Garden Club",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": []
+  },
+  {
+    "id": 15,
+    "team_id": 3,
+    "name": "Installation Services",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": []
+  },
+  {
+    "id": 16,
+    "team_id": 3,
+    "name": "Pro",
+    "description": null,
+    "created_at": "2017-04-19 17:30:16",
+    "updated_at": "2017-04-19 17:30:16",
+    "category": []
+  },
+  {
+    "id": 17,
+    "team_id": 1,
+    "name": "Shopper Browser",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 18,
+    "team_id": 1,
+    "name": "Promo",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 19,
+    "team_id": 1,
+    "name": "Abandon Cart",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 20,
+    "team_id": 1,
+    "name": "Browser Retargeting",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 21,
+    "team_id": 1,
+    "name": "Transactional",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 22,
+    "team_id": 1,
+    "name": "Garden Club",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 23,
+    "team_id": 1,
+    "name": "Installation Services",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 24,
+    "team_id": 1,
+    "name": "Pro",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 25,
+    "team_id": 3,
+    "name": "Shopper Browser",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 26,
+    "team_id": 3,
+    "name": "Promo",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 27,
+    "team_id": 3,
+    "name": "Abandon Cart",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 28,
+    "team_id": 3,
+    "name": "Browser Retargeting",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 29,
+    "team_id": 3,
+    "name": "Transactional",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 30,
+    "team_id": 3,
+    "name": "Garden Club",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 31,
+    "team_id": 3,
+    "name": "Installation Services",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 32,
+    "team_id": 3,
+    "name": "Pro",
+    "description": null,
+    "created_at": "2017-04-19 17:32:37",
+    "updated_at": "2017-04-19 17:32:37",
+    "category": []
+  },
+  {
+    "id": 33,
+    "team_id": 1,
+    "name": "Shopper Browser",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 34,
+    "team_id": 1,
+    "name": "Promo",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 35,
+    "team_id": 1,
+    "name": "Abandon Cart",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 36,
+    "team_id": 1,
+    "name": "Browser Retargeting",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 37,
+    "team_id": 1,
+    "name": "Transactional",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 38,
+    "team_id": 1,
+    "name": "Garden Club",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 39,
+    "team_id": 1,
+    "name": "Installation Services",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 40,
+    "team_id": 1,
+    "name": "Pro",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 41,
+    "team_id": 3,
+    "name": "Shopper Browser",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 42,
+    "team_id": 3,
+    "name": "Promo",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 43,
+    "team_id": 3,
+    "name": "Abandon Cart",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 44,
+    "team_id": 3,
+    "name": "Browser Retargeting",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 45,
+    "team_id": 3,
+    "name": "Transactional",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 46,
+    "team_id": 3,
+    "name": "Garden Club",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 47,
+    "team_id": 3,
+    "name": "Installation Services",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 48,
+    "team_id": 3,
+    "name": "Pro",
+    "description": null,
+    "created_at": "2017-04-19 17:34:25",
+    "updated_at": "2017-04-19 17:34:25",
+    "category": []
+  },
+  {
+    "id": 49,
+    "team_id": 1,
+    "name": "Shopper Browser",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 50,
+    "team_id": 1,
+    "name": "Promo",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 51,
+    "team_id": 1,
+    "name": "Abandon Cart",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 52,
+    "team_id": 1,
+    "name": "Browser Retargeting",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 53,
+    "team_id": 1,
+    "name": "Transactional",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 54,
+    "team_id": 1,
+    "name": "Garden Club",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 55,
+    "team_id": 1,
+    "name": "Installation Services",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 56,
+    "team_id": 1,
+    "name": "Pro",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 57,
+    "team_id": 3,
+    "name": "Shopper Browser",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 58,
+    "team_id": 3,
+    "name": "Promo",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 59,
+    "team_id": 3,
+    "name": "Abandon Cart",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 60,
+    "team_id": 3,
+    "name": "Browser Retargeting",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 61,
+    "team_id": 3,
+    "name": "Transactional",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 62,
+    "team_id": 3,
+    "name": "Garden Club",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 63,
+    "team_id": 3,
+    "name": "Installation Services",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  },
+  {
+    "id": 64,
+    "team_id": 3,
+    "name": "Pro",
+    "description": null,
+    "created_at": "2017-04-19 17:35:06",
+    "updated_at": "2017-04-19 17:35:06",
+    "category": []
+  }
+]
